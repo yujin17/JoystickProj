@@ -1,5 +1,2 @@
-# JoystickProj
-
+## First Team Game Project
 Joystick team project
-
-# First Team Game Project
