@@ -10,7 +10,6 @@ charactor assets from
 
 ## 수정할 사항
 - [ ] Rebirth 에서 목숨을 하나도 못 먹었어도 스테이지로 돌아가짐
-- [ ] 스테이지로 돌아간 이후 위치가 초기화 되어있음
 - [ ] 목숨이 없어도 게임종료 화면이 뜨지 않음
 - [ ] 설정 부분 수정해야함
 
@@ -22,7 +21,6 @@ charactor assets from
 ---
 ## Things to fix
 - [ ] Without getting any life in Rebirth stage, it gets back to main stage
-- [ ] Position is not saved after getting back to the main stage
 - [ ] Even after losing all lives, game doesn't end
 - [ ] Settings
 ### Stage 1
