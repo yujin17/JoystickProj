@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bat : MonoBehaviour
 {
     SpriteRenderer spriterd;
+    CapsuleCollider2D capsulecol;
 
     private PlayerMove player;
     public float moveSpeed;
@@ -16,6 +17,7 @@ public class Bat : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        capsulecol = GetComponent<CapsuleCollider2D>();
         spriterd = GetComponent<SpriteRenderer>();
         player = FindObjectOfType<PlayerMove>();
         anim = GetComponent<Animator>();
@@ -51,6 +53,7 @@ public class Bat : MonoBehaviour
         spriterd.color = new Color(1, 1, 1, 0.4f);
         //Sprite Flip Y
         spriterd.flipY = true;
+        capsulecol.enabled = false;
         Invoke("BatDie", 0.5f);
 
     }
