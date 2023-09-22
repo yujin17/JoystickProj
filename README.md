@@ -5,8 +5,9 @@ Joystick team project
 
 ## Assets
 charactor assets from
-https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360
-https://assetstore.unity.com/packages/2d/characters/pixel-adventure-2-155418
+
+(https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360)
+(https://assetstore.unity.com/packages/2d/characters/pixel-adventure-2-155418)
 
 
 ## 수정할 사항
