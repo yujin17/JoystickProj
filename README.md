@@ -16,7 +16,7 @@ charactor assets from
 
 
 ### 스테이지 1
-- [ ] 처음에 나오는 박쥐가 죽고나서도 player가 닿으면 공격함 (collider 안 꺼진듯)
+- [X] 처음에 나오는 박쥐가 죽고나서도 player가 닿으면 공격함 (collider 안 꺼진듯)
 
 
 ---
@@ -26,5 +26,5 @@ charactor assets from
 - [ ] Even after losing all lives, game doesn't end
 - [ ] Settings
 ### Stage 1
-- [ ] Dead bat still attacks player (maybe collider isn't off?)
+- [X] Dead bat still attacks player (maybe collider isn't off?)
 
