@@ -124,13 +124,14 @@ public class PlayerMove : MonoBehaviour
         }
        if(col.gameObject.tag=="Rebirth")
         {
-            Debug.Log("스테이지 복귀");
-            spriteRenderer.color = new Color(1, 1, 1, 1f);
-            gameManager.rebirth.SetActive(false);
-            gameManager.Stage[gameManager.stageIndex].SetActive(true);
-            gameManager.PlayerReposition();
-
-
+            if (gameManager.Life > 0)
+            {
+                Debug.Log("스테이지 복귀");
+                spriteRenderer.color = new Color(1, 1, 1, 1f);
+                gameManager.rebirth.SetActive(false);
+                gameManager.Stage[gameManager.stageIndex].SetActive(true);
+                gameManager.PlayerReposition();
+            }
         }
     }
 
@@ -323,10 +324,13 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
+            Debug.Log("GameOver");
             spriteRenderer.flipY = true;
             capsulecol.enabled = false;
-            
-            
+            Time.timeScale = 0f;
+            GameObject.Find("Player").GetComponent<PlayerMove>().JumpCnt = 1;
+            GameObject.Find("Player").GetComponent<PlayerMove>().move = false;
+            gameManager.gameOver.SetActive(true);
         }
 
         

@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject[] Stage;
     public GameObject rebirth;
+    public GameObject gameOver;
 
     public Image[] UILife;  //ui-imageÇü º¯¼ö 
     public Text UIattackmode;
@@ -76,6 +77,10 @@ public class GameManager : MonoBehaviour
         {
             Life--;
             UILife[Life].color = new Color(1, 0, 0, 0.4f);
+            Player.Ondie();
+        }
+        else if(Life==0)
+        {
             Player.Ondie();
         }
     }
