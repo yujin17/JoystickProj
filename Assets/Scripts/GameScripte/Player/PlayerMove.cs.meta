@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: defcb3d0ada12974b8a1940b8245463a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameManager: {instanceID: 0}
+  - AttackItem: {instanceID: 0}
+  - Fire: {instanceID: 0}
+  - audioJump: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+  - audioAttack: {instanceID: 0}
+  - audioDamaged: {instanceID: 0}
+  - audioItem: {instanceID: 0}
+  - audioFinish: {instanceID: 0}
+  - audioDie: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - AttackItem
+  - ItemBox
+  - Fire
+  - Border
+  - Enemy
+  - TutleSpike
+  - TurtleEnemy
+  - WPlant
+  - wplantbullet
+  - RockEnemy
+  - BatEnemy
+  - BabyRockEnemy
+  - RinoEnemy
+  - SPlant
+  - BabyRock
+  - SideWall
+  - Life
+  - Rebirthzone
+  - Rebirth
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - PlayerDamaged
+  - Water
+  - UI
+  - Platform
+  - ItemBox
+  - Player
+  - Fire
+  - Enemy
+  - EnemyBullet
+  - SPlant
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
